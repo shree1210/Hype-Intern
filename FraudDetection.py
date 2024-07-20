@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  4 18:05:05 2019
-
-@author: Ravi
-"""
-
-
 # import the required packages
 
 import numpy as np
@@ -26,7 +18,8 @@ data = data.sample(frac=0.1, random_state = 1)
 print(data.shape)
 print(data.describe())
 
-# V1 - V28 are the results of a PCA Dimensionality reduction to protect user identities and sensitive features
+# V1 - V28 are the results of a PCA Dimensionality reduction 
+# to protect user identities and sensitive features
 
 # Plot histograms of each parameter 
 data.hist(figsize = (20, 20))
